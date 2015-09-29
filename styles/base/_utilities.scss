@@ -1,0 +1,20 @@
+// Variables
+$height: 80px;
+$height-info: 100px;
+$backgroundcolor-info1: #FFE621;
+$backgroundcolor-info2: #F6F36F;
+$backgroundcolor: lighten(#452045, 10%);
+$color: darken(#7C3A92, 20%);
+
+
+@mixin cf {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}

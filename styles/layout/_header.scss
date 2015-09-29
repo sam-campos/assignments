@@ -1,0 +1,38 @@
+.main-header {
+  height: $height;
+  background-color: $backgroundcolor;
+  position: relative;
+  @include cf;
+
+
+.logo {
+  height: $height;
+  width: 80px;
+  background: $color;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+  .main-nav {
+    top: 0;
+    right: 0;
+    height: 80px;
+    width: 600px;
+    float: right;
+
+  .Install,
+  .Learncss,
+  .Blog,
+  .Documentation,
+  .GetInvolved,
+  .LibSass {
+      height: 80px;
+      width: 80px;
+      background-color: $color;
+      float: right;
+      margin-left: 20px;
+    }
+  }
+
+}
