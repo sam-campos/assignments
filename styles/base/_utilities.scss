@@ -7,6 +7,9 @@ $backgroundcolor: lighten(#452045, 10%);
 $color: darken(#7C3A92, 20%);
 
 
+// Operators
+$site-info-width: 100%;
+
 @mixin cf {
   &:before,
   &:after {
